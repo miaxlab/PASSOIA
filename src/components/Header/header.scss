@@ -3,14 +3,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+   margin: 15px;
 
     ul{
         display: flex;
         list-style: none;
         //border: solid;
         width: 35vw;
-        justify-content: space-around;
+        justify-content:flex-end;
         flex-wrap: wrap;
     }
 }

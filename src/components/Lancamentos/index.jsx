@@ -43,7 +43,7 @@ function Lancamentos(){
         <section className="logica">
           <img src={estrelas} alt="estrelas" />
           <h4>Matte Premium</h4>
-          <p>Cores disponível</p>
+          <p>Cores disponíveis</p>
           <div className="btn">
             <button
               onClick={() => {

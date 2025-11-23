@@ -6,9 +6,7 @@ function Header(){
         <header>
             <img src={logo} alt="logo marca da pagina" />
             <ul>
-                <li>LOOKS</li>
-                <li>LANÇAMENTOS</li>
-                <li>NOVIDADE</li>
+                
             </ul>
         </header>
     )

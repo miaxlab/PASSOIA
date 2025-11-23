@@ -5,19 +5,19 @@ section{
 .lancamentos {
     display: flex;
     justify-content: space-around;
-    height: 65vh;
+    height: 100vh;
     align-items: center;
     flex-wrap: wrap;
 
     figure {
         display: flex;
         flex-direction: column;
-        width: 8vw;
+        width: 10vw;
         gap: 10px;
     }
 
     .modelo {
-        width: clamp(180px, 25vw, 300px);
+        width: clamp(200px, 700vw, 300px);
         max-width: 100%;
         height: auto;
     }

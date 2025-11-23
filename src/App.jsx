@@ -3,14 +3,18 @@ import Header from "./components/Header";
 import Lancamentos from "./components/Lancamentos";
 import Banner from "./components/Banner";
 import Produtos from "./components/Produtos";
-
+import Footer from "./components/Footer";
 
 //Arquivo principal
  function App() {
   return(
     <>
    <Header/>
-   <Lancamentos/>
+   <Banner imagem="./banner1.png" alt="Banner inicial"/>
+   <Lancamentos />
+   <Produtos />
+   <Banner imagem="./banner2.png" alt="Banner meio" />
+   <Footer/>
     </>
   )
  }
